@@ -1,0 +1,53 @@
+/*
+Kujunduse looja: Siim Aarmaa (Smaapo)
+Facebook (Smaapo): https://www.facebook.com/smaapo
+URL: http://smaapo.com
+Aasta: Juuni, 2014
+*/
+
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css");
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css");
+
+/* Üldine kujundus */
+body {
+  background-color: #eee;
+}
+
+/* Tabeli kujundus */
+table {
+    border-collapse: separate;
+	background-color: #FFFFFF;
+    border-spacing: 0;
+    width: auto;
+	color: #666666;
+    text-shadow: 0 1px 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
+	font-family: arial;
+	margin-top: 20px;
+}
+table thead tr th {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #222222;
+    padding: 10px 14px;
+    text-align: left;
+	border-top: 0 none;
+	font-size: 12px;
+}
+table tbody tr td{
+    background-color: #FFFFFF;
+	font-size: 11px;
+    text-align: left;
+	padding: 10px 14px;
+	border-top: 1px solid #DDDDDD;
+}
+
+/* Jalus */
+#footer {
+  position: absolute;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
