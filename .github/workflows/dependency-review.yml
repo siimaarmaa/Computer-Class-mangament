@@ -13,5 +13,5 @@ jobs:
         with:
           fail-on-severity: moderate
 
-          # Use comma-separated names to pass list arguments::
+          # Use comma-separated names to pass list arguments:
           deny-licenses: LGPL-2.0, BSD-2-Clause
