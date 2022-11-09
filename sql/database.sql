@@ -10,8 +10,7 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`) VALUES
-(1, 'SiimAarmaa', 'aac0054d9ec67033faea362ecb463191', 'info@smaapo.com'),
-(2, 'Test', 'ee6aa8565f29397f3cdc22bf15ba6763', 'test@test.ee');
+(1, 'Test', 'ee6aa8565f29397f3cdc22bf15ba6763', 'test@test.ee');
 
 
 -- Table structure for table `klass`
